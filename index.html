@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Login page</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Javascript Login</h1>
+        <div class="form">
+
+            <label class="form-label" for="">Email:</label>
+            <input class="form-input email-input" type="text" placeholder="johndoe@gmail.com" required>
+
+            <label class="form-label" for="">Password:</label>
+            <input class="form-input psw-input" type="password" placeholder="password" required>
+
+        </div>
+
+        <button class="login-btn" type="submit">Login</button>
+    </div>
+
+
+
+    <div class="container-2">
+
+        <div class="search-bar">
+            <input class="search-input" type="text" placeholder="search word ">
+        </div>
+
+        <hr>
+
+        <div class="section-1">
+            <h2>Add favorite word</h2>
+            <form class="add-form">
+                <input class="add-input" type="text">
+                <input class="add-submit-btn" type="submit">
+            </form>
+        </div>
+
+        <hr>
+
+        <div class="section-2">
+            <h2>List of Favorite Words</h2>
+            <ul class="items">
+                <li class="list-item">Family <button class="delete-btn">X</button></li>
+                <li class="list-item">Love <button class="delete-btn">X</button></li>
+                <li class="list-item">Goal <button class="delete-btn">X</button></li>
+            </ul>
+        </div>
+
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
